@@ -1,11 +1,9 @@
 import pytest
 import sys
-
+sys.path.append('../')
 
 from selenium import webdriver
-
-
-from config import TestData
+from Config.config import TestData
 
 
 @pytest.fixture(params=["chrome"], scope='class')

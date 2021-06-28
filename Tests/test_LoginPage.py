@@ -1,4 +1,4 @@
-from Tests.config import TestData
+from Config.config import TestData
 from Pages.LoginPage import LoginPage
 from Tests.test_base import BaseTest
 
